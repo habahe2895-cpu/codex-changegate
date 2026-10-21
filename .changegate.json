@@ -5,7 +5,8 @@
     ".github/workflows/**",
     "changegate/**",
     "infra/**",
-    "src/security/**"
+    "src/security/**",
+    "pyproject.toml"
   ],
   "voters": [
     "habahe2895-cpu"
