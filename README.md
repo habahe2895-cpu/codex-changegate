@@ -51,6 +51,22 @@ python -m unittest discover -s tests -v
 
 **The example approvals above are synthetic fixture data, not actual user reviews.**
 
+## Guided onboarding and observed checks
+
+For a step-by-step installation with real human reviewers and enforced branch rules,
+see the [setup guide](docs/SETUP.md) and [verification checklist](docs/VERIFY.md).
+
+The maintainer's initial public end-to-end checks are documented in GitHub:
+
+- [PR #1](https://github.com/habahe2895-cpu/codex-changegate/pull/1):
+  documentation-only change, with successful `unit-tests` and `vote-gate` checks.
+- [PR #2](https://github.com/habahe2895-cpu/codex-changegate/pull/2):
+  protected policy change with successful unit tests and intentionally failed
+  `vote-gate` while no eligible independent reviewer has approved it.
+
+These demonstrations do not establish production security or external adoption.
+For feedback or volunteer testing, see [issue #3](https://github.com/habahe2895-cpu/codex-changegate/issues/3).
+
 ## Using in a GitHub repository
 
 1. Copy `changegate/`, `.changegate.json` and
