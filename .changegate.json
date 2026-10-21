@@ -8,7 +8,8 @@
     "src/security/**"
   ],
   "voters": [
-    "habahe2895-cpu"
+    "habahe2895-cpu",
+    "habahe2895-hub"
   ],
   "minimum_approvals": 1,
   "require_latest_commit": true,
