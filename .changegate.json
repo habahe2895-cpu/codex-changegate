@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "protected_patterns": [
+    ".changegate.json",
+    ".github/workflows/**",
+    "changegate/**",
+    "infra/**",
+    "src/security/**"
+  ],
+  "voters": [
+    "habahe2895-cpu"
+  ],
+  "minimum_approvals": 1,
+  "require_latest_commit": true,
+  "allow_author_vote": false
+}

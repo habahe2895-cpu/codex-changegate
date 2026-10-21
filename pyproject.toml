@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-changegate"
+version = "0.1.0"
+description = "Lightweight, read-only GitHub PR voting gate for AI-assisted teams"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Codex ChangeGate contributors"}]
+keywords = ["codex", "github", "approval", "pull-request", "open-source"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+
+[project.scripts]
+changegate = "changegate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["changegate*"]
