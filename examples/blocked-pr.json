@@ -1,0 +1,25 @@
+{
+  "author": "contributor",
+  "head_sha": "new-commit",
+  "files": [
+    "infra/deploy.yml"
+  ],
+  "reviews": [
+    {
+      "id": 201,
+      "user": {
+        "login": "alice"
+      },
+      "state": "APPROVED",
+      "commit_id": "old-commit"
+    },
+    {
+      "id": 202,
+      "user": {
+        "login": "bob"
+      },
+      "state": "COMMENTED",
+      "commit_id": "new-commit"
+    }
+  ]
+}

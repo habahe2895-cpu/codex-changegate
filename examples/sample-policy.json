@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "protected_patterns": [
+    "infra/**",
+    ".github/workflows/**"
+  ],
+  "voters": [
+    "alice",
+    "bob",
+    "carol"
+  ],
+  "minimum_approvals": 2,
+  "require_latest_commit": true,
+  "allow_author_vote": false
+}

@@ -1,0 +1,26 @@
+{
+  "author": "contributor",
+  "head_sha": "sample-head-sha",
+  "files": [
+    "infra/deploy.yml",
+    "docs/usage.md"
+  ],
+  "reviews": [
+    {
+      "id": 101,
+      "user": {
+        "login": "alice"
+      },
+      "state": "APPROVED",
+      "commit_id": "sample-head-sha"
+    },
+    {
+      "id": 102,
+      "user": {
+        "login": "bob"
+      },
+      "state": "APPROVED",
+      "commit_id": "sample-head-sha"
+    }
+  ]
+}
